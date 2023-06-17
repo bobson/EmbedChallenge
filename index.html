@@ -1,0 +1,71 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <meta charset="utf-8" />
+    <title>Frontend challenge</title>
+    <meta name="author" content="" />
+    <meta name="description" content="" />
+    <meta name="viewport" content="width=device-width, initial-scale=1" />
+    <link
+      rel="stylesheet"
+      href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css"
+    />
+    <link
+      href="https://embedsocial.com/cdn/fonts/roboto/stylesheet.css"
+      rel="stylesheet"
+    />
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Cabin+Sketch&display=swap"
+      rel="stylesheet"
+    />
+    <link rel="stylesheet" href="style.css" />
+    <link rel="stylesheet" href="feed.css" />
+  </head>
+
+  <body>
+    <nav>
+      <h1 class="logo">SocialBox</h1>
+      <div class="nav-right-side">
+        <div class="search-box">
+          <img src="images/search.png" />
+          <input type="text" placeholder="search" />
+        </div>
+        <label class="switch">
+          <input type="checkbox" id="toggle-theme" />
+          <span class="slider round"></span>
+        </label>
+      </div>
+    </nav>
+
+    <main>
+      <aside class="left-sidebar">
+        <div class="links">
+          <a href="#"><img src="images/home-button.png" />Home</a>
+          <a href="#"><img src="images/direction.png" />Explore</a>
+          <a href="#"><img src="images/messenger.png" />Messages</a>
+          <a href="#"><img src="images/add.png" />Create</a>
+        </div>
+      </aside>
+      <div class="layout-container">
+        <button type="button" class="load-more-btn">
+          <span>&#10093;</span>
+        </button>
+
+        <div class="bottom-links">
+          <a href="#"><img src="images/home-button.png" /></a>
+          <a href="#"><img src="images/direction.png" /></a>
+          <a href="#"><img src="images/messenger.png" /></a>
+          <a href="#"><img src="images/add.png" /></a>
+        </div>
+      </div>
+    </main>
+    <div id="lightBox" class="modal">
+      <span class="close cursor">&times;</span>
+      <div class="modal-content"></div>
+    </div>
+
+    <script type="module" src="index.js"></script>
+  </body>
+</html>
