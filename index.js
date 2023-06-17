@@ -54,6 +54,7 @@ function loadInitialItems() {
   }
 
   const div = document.createElement("div");
+  div.classList.add("feed-wrapper");
   itemsContainer.insertBefore(div, loadMoreButton);
   div.innerHTML = out;
 }
@@ -109,6 +110,7 @@ function loadData() {
   }
 
   let div = document.createElement("div");
+  div.classList.add("feed-wrapper");
   itemsContainer.insertBefore(div, loadMoreButton);
   div.innerHTML = out;
   div.style.opacity = 0;

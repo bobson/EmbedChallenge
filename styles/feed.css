@@ -37,12 +37,12 @@ aside {
 
 .layout-container {
   display: flex;
-  max-width: 800px;
+  max-width: 600px;
   flex-basis: 70%;
   align-items: center;
   justify-content: center;
   flex-direction: column;
-  margin: auto;
+  margin-right: auto;
   margin-bottom: 50px;
   padding-top: 30px;
 }
@@ -57,6 +57,7 @@ aside {
   background: var(--bg-color);
   border-radius: 5px;
   box-shadow: 0 0 10px rgb(0 0 0 / 0.1);
+  transition: background 0.3s;
 }
 
 .user-profile {
@@ -86,6 +87,7 @@ aside {
 
 .user-profile a {
   margin-left: auto;
+  /* margin-bottom: auto; */
 }
 
 .user-profile a img {
@@ -178,7 +180,7 @@ aside {
 .modal-content img {
   max-height: 100%;
   width: 100%;
-  max-width: 600px;
+  max-width: 500px;
   /* object-fit: contain; */
 }
 
@@ -238,5 +240,11 @@ aside {
   }
   .bottom-links {
     display: flex;
+  }
+  .modal {
+    padding: 50px 0 0 0;
+  }
+  .modal-content {
+    width: 100%;
   }
 }

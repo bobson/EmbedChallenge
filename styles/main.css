@@ -31,12 +31,3 @@ body {
   position: relative;
   box-sizing: border-box;
 }
-
-@media screen and (max-width: 480px) {
-  .modal {
-    padding: 50px 0 0 0;
-  }
-  .modal-content {
-    width: 100%;
-  }
-}

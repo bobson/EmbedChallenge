@@ -8,7 +8,9 @@
 - JavaScript
 - Responsive layout
 
-## Acknowledgments
+## How To
+
+Clone or download the repo to local machine, and open index.html in the broser. I'm usig live server extension on VScode for development purposes
 
 ## Author
 
