@@ -10,7 +10,8 @@
 
 ## How To
 
-Clone or download the repo to local machine, and open index.html in the broser. I'm usig live server extension on VScode for development purposes
+You have to install live server extension on VSCode to be able to run the app.
+Clone or download the repo to local machine, and open it with VSCode text editor and run live server extension.
 
 ## Author
 
